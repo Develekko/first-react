@@ -1,0 +1,18 @@
+.movie-nav
+{
+    background-color: #36393F;
+}
+
+.movies-heading .star span::before,.movies-heading .star span::after
+{
+  background-color: #fff!important;
+}
+  
+.movies-heading .star i
+{
+    color: #fff!important;
+}
+.movies-heading .sectionHeading
+{
+  font-size: 2rem!important;
+}

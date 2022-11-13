@@ -1,0 +1,30 @@
+#Contact .form-control {
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-color: #ced4da;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+#contact .form-control::placeholder {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
+
+#Contact textarea {
+  resize: none;
+}

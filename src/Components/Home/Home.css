@@ -1,0 +1,27 @@
+#Home {
+  background-color: #1abc9c;
+  height: 100vh;
+}
+#Home img {
+  width: 15rem;
+}
+#Home h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 2rem;
+}
+#Home p
+{
+    font-size: 24px;
+}
+
+#Home .star span::before,#Home .star span::after
+{
+  background-color: #fff!important;
+}
+  
+#Home .star i
+{
+    color: #fff!important;
+}
