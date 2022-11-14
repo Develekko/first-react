@@ -16,16 +16,16 @@ const router = createBrowserRouter([
   {
     path: '/first-react', element: <Layout />, children: [
       { index: true, element: <Home /> },
-      { path: 'portfolio', element: <Portfolio /> },
-      { path: 'about', element: <About /> },
-      { path: 'contact', element: <Contact /> },
-      { path: 'trending', element: <Trending /> },
-      { path: 'movies', element: <Movies />,children:[
-        { path: 'nowPlaying', element: <NowPlaying /> },
-        { path: 'popular', element: <Popular /> },
-        { path: 'topRated', element: <TopRated /> },
-        { path: 'trending', element: <Trending /> },
-        { path: 'upComing', element: <UpComing /> },
+      { path: '/portfolio', element: <Portfolio /> },
+      { path: '/about', element: <About /> },
+      { path: '/contact', element: <Contact /> },
+      { path: '/trending', element: <Trending /> },
+      { path: '/movies', element: <Movies />,children:[
+        { path: '/nowPlaying', element: <NowPlaying /> },
+        { path: '/popular', element: <Popular /> },
+        { path: '/topRated', element: <TopRated /> },
+        { path: '/trending', element: <Trending /> },
+        { path: '/upComing', element: <UpComing /> },
       ] },
       { path: '*', element: <Home /> }
     ]
