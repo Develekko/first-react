@@ -14,7 +14,7 @@ import UpComing from './Movies/UpComing/UpComing';
 
 const router = createBrowserRouter([
   {
-    path: '', element: <Layout />, children: [
+    path: '/first-react', element: <Layout />, children: [
       { index: true, element: <Home /> },
       { path: 'portfolio', element: <Portfolio /> },
       { path: 'about', element: <About /> },
